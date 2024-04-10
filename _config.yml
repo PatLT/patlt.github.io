@@ -31,7 +31,7 @@ twitter_username: ""
 github_username:  PatLT
 
 # Build settings
-theme: al-folio
+theme: minima
 plugins:
   - jekyll-feed
 
