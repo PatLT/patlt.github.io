@@ -1,199 +1,118 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Patrick L. Taylor",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
-    "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
-    },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
-      }
-    ]
+    "email": "p.taylor23@imperial.ac.uk",
+    "summary": "I'm currently a postdoc at Imperial College, London—prior to which I completed a PhD at Cambridge. My current work is on applying ML to detect in-situ defect formation in metal additive manufacturing (AM). Whilst I am currently developing large deep learning models, my PhD project used Bayesian models trained on smaller datasets for use in materials design, giving me broad experience applying ML and data-driven analysis in science."
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
+      "name": "Mechanical Engineering Department, Imperial College London",
+      "position": "Postdoctoral Research Associate",
+      "startDate": "2023",
+      "summary": "Developing deep learning algorithms to detect defect formation in laser powder bed fusion additive manufacturing. The role involves close collaboration with experimental colleagues and industrial collaborators. I am also supervising undergraduate research projects."
+    },
     {
-      "organization": "People's Climate March",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "name": "Physics Department, University of Cambridge",
+      "position": "Supervisor (undergraduate teaching)",
+      "startDate": "2019",
+      "endDate": "2022",
+      "summary": "Delivered 1-on-3 supervisions for 3rd year statistical mechanics, and demonstrated for 3rd year computing courses."
+    },
+    {
+      "name": "Physics Department, University of Oxford",
+      "position": "Web development intern",
+      "startDate": "2018",
+      "endDate": "2018",
+      "summary": "Built and wrote content for an outreach website for the Quantum Theory Group."
+    },
+    {
+      "name": "Physics Department, University of Oxford",
+      "position": "Summer research project intern",
+      "startDate": "2017",
+      "endDate": "2017",
+      "summary": "Modelled the magnetisation of type-II superconductors suing COMSOL."
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
+      "institution": "Physics Department, University of Cambridge",
+      "area":"Material informatics [Thesis: Machine learning approach to model the microstructure and strength of nickel superalloys]",
       "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+      "startDate": "2019",
+      "endDate": "2023"
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
+      "institution": "Physics Department, University of Cambridge",
+      "area":"Scientific Computing",
+      "studyType": "MPhil",
+      "startDate": "2018",
+      "endDate": "2019"
     },
     {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
+      "institution": "Hertford College, University of Oxford",
+      "area":"Mathematical and theoretical physics",
+      "studyType": "MMathPhys (undergraduate degree)",
+      "startDate": "2014",
+      "endDate": "2018",
+      "score": "1st class honours"
     }
   ],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      "name": " Machine learning superalloy microchemistry and creep strength from physical descriptors",
+      "publisher": "Comp. Mat. Sci., 227",
+      "releaseDate": "2023",
+      "url": "https://doi.org/10.1016/j.commatsci.2023.112265",
+      "summary": "An element-agnostic set of descriptors is proposed to model superalloy properties with Gaussian process regression. Furthermore, we develop a correction method to deliver the best and most physical predictions for microchemistry in multi-phase alloys. The model's performance in predictions is confirmed for superalloy microchemistry, microstructure, and strength properties. When including new, unseen elements in the test data, the models still give good predictions; such extrapolations into new chemical-space would be impossible with component-based descriptors."
     },
     {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
+      "name": "Machine learning predictions of superalloy microstructure",
+      "publisher": "Comp. Mat. Sci., 201",
+      "releaseDate": "2022",
+      "url": "https://doi.org/10.1016/j.commatsci.2021.110916",
+      "summary": "Gaussian process regression machine learning with a physically-informed kernel is used to model the phase compositions of nickel-base superalloys. The model delivers good predictions for laboratory and commercial superalloys (R^2=0.924 for phase fractions). For four benchmark SX-series alloys the methodology predicts the phase composition better than conventional CALPHAD. Furthermore, unlike CALPHAD Gaussian process regression quantifies the uncertainty in predictions, and can be retrained as new data becomes available."
     },
     {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "Ultrahigh critical current densities, the vortex phase diagram, and the effect of granularity of the stoichiometric high-Tc superconductor CaKFe4As4",
+      "publisher": "Phys. Rev. Mat. 2 074802",
+      "releaseDate": "2018",
+      "url": "https://journals.aps.org/prmaterials/abstract/10.1103/PhysRevMaterials.2.074802",
+      "summary": "A comprehensive study of the critical current densities and the superconducting vortex phase diagram in the stoichiometric superconductor CaKFe4As4 which has a critical temperature of ~35K."
     }
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "name": "Programming & machine learning",
+      "level": "Expert",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "python",
+        "pytorch & gpytorch",
+        "scikit-learn & scikit-image",
+        "pandas",
+        "numba",
+        "javascript",
+        "C++",
+        "linux",
+        "git",
+        "HPC clusters"
       ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
     },
     {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
-    }
-  ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
+      "name": "Atomistic Simulation",
+      "level": "Experienced",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Molecular dynamics (LAMMPS)",
+        "Density functional theory (CASTEP)"
       ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
     },
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
-  "projects": [
-    {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "Presenting",
+      "level": "Experienced",
+      "keywords": [
+        "Technical",
+        "Non-technical & outreach"
+      ]
     }
   ]
 }
