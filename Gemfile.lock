@@ -233,7 +233,7 @@ DEPENDENCIES
   jekyll-twitter-plugin
   jemoji
   kramdown-parser-gfm
-  mini_racer (< 0.5.0)
+  mini_racer (<= 0.5.0)
   unicode_utils
   webrick
 
